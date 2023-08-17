@@ -11,49 +11,125 @@
     {
         font-weight: bold;
 
+        font-size: 35px;
+        line-height: 30px;
+    }
+    h2
+    {
+        font-weight: bold;
+
         font-size: 22px;
         line-height: 30px;
+    }
+    span.presentationBox
+    {
+        display: inline-block;
+        width: 370px;
+        height: auto;
+        padding: 10px;
+        border: 3px solid gray;
+        position: relative; left: 200px;
+    }
+    span.workExperinceBox
+    {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border: 3px solid gray;
+        position: relative; left: 220px; top: 35px;
+    }
+    span.educationBox
+    {
+        display: inline-block;
+        width: 305px;
+        height: auto;
+        padding: 10px;
+        border: 3px solid gray;
+        position: relative; left: -245px; top: 265px;
+    }
+    span.courseBox
+    {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border: 3px solid gray;
+        position: relative; left:306px; top: -26px;
+    }
+    span.languageBox
+    {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border: 3px solid gray;
+        position: relative; left: 80px; top: 170px;
+    }
+    span.bannerLeft
+    {
+        display: inline-block;
+        width: 350px;
+        height: 910px;
+        padding: 5px;
+        border: 4px solid gray;    
+        background-color: rgba(0, 50, 255, 0.85); 
+        position: fixed; left: 75px; top: -10px;
+    }
+    img
+    {
+        border-radius: 50%;
+        border: 4px solid gray;
+        position: fixed; left: 155px; top: 100px;
     }
 </style>
 </head>
 <body>
 
+    <span class="bannerLeft"></span>    
+
+    <img src="Pictures/IMG_0001.jpg" class="float-end" width="180px" height="245px">
+
 <div class="container">
+    <br>
     <br>
     <center><h1>Marcus Rossen</h1></center>
     <center><hr style="height: 1.5px; width: 30%; color: black"></center>
-    <h1>Præsentation</h1>
-
-    <img src="Pictures/IMG_0001.jpg" class="float-end" width="300px" height="370px">
-
-        <p>
-            Jeg er en dreng på 17 år som er nysgerrig og lærenem indenfor IT. Jeg går meget op i
-            at tingene bliver lavet rigtigt, og jeg er villig til at bruge meget tid på et projekt, for at
-            det bliver lavet ordentligt. Jeg er mødestabil og ansvarsfuld.
-        </p>
     <br>
-
-    <h1>Arbejdserfaring</h1>
-        <p>Ungarbejder • Føtex • 15. december 2021 – Nu</p>
-        <p>Praktikant • El-Sec • 7. marts 2022 – 11. marts 2022</p>
-        <p>Praktikant • Flatponies • 24. oktober 2022 – 28. oktober 2022</p>
-    <br>
-
-    <h1>Uddannelse</h1>
-        <p>2022 - Afsluttet folkeskolen 9. klasse</p>
-        <p>2022 – Afsluttet grundforløb 1 EUX</p>
-        <p>2023 – Afsluttet grundforløb 2 EUX</p>
-        <p>2023 - Startet skoleoplæringscenter</p>
-    <br>
-
-    <h1>Kurser / certifikater</h1>
-        <p>Førstehjælp ifm. kørekort</p>
-        <p>Førstehjælp ifm. grundforløb 2 EUX</p>
-    <br>
-
-    <h1>Sprog</h1>
-        <p>Dansk modersmål</p>
-        <p>Engelsk højt niveau</p>
+    <div>
+        <span class="presentationBox">
+            <h2>Præsentation</h2>
+                <p>
+                Jeg er en dreng på 17 år som er nysgerrig og lærenem indenfor IT. Jeg går meget op i
+                at tingene bliver lavet rigtigt, og jeg er villig til at bruge meget tid på et projekt, for at
+                det bliver lavet ordentligt. Jeg er mødestabil og ansvarsfuld.
+                </p>
+        </span>
+        <span class="workExperinceBox">
+            <h2>Arbejdserfaring</h2>
+                <p>Ungarbejder • Føtex • 15. december 2021 – Nu</p>
+                <p>Praktikant • El-Sec • 7. marts 2022 – 11. marts 2022</p>
+                <p>Praktikant • Flatponies • 24. oktober 2022 – 28. oktober 2022</p>
+        </span>
+        <span class="educationBox">
+            <h2>Uddannelse</h2>
+                <p>2022 - Afsluttet folkeskolen 9. klasse</p>
+                <p>2022 – Afsluttet grundforløb 1 EUX</p>
+                <p>2023 – Afsluttet grundforløb 2 EUX</p>
+                <p>2023 - Startet Skoleoplæringscentret</p>
+        </span>
+        <span class="courseBox">
+            <h2>Kurser / certifikater</h2>
+            <p>Førstehjælp ifm. kørekort</p>
+            <p>Førstehjælp ifm. grundforløb 2 EUX</p>
+        </span>
+        <span class="languageBox">
+            <h2>Sprog</h2>
+                <p>Dansk: Modersmål</p>
+                <p>Engelsk: Højt niveau</p>
+                <p>Fransk: Folkeskole niveau</p>
+        </span>
+    </div>    
 </div>
 
 </body>
